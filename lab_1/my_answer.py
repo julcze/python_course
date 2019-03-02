@@ -19,3 +19,4 @@ def findmin(x):
     return y, z
 
 print (findmin([1,2,3,0]))
+print("zmiana")
