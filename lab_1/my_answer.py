@@ -18,5 +18,4 @@ def findmin(x):
     z=x.index(y)
     return y, z
 
-print (findmin([1,2,3,0]))
-print("zmiana")
+print (findmin([1,2,3,5]))
