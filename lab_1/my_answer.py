@@ -4,12 +4,18 @@ print(y)
 print('-'*20)
 
 #2
-print('Insert your value here:')
-x = int(input())
-factorial=1
-for i in range(1,x+1):
-    factorial=factorial *i
-print('The factorial od inserted value is', factorial)
+def fac(x):
+    print('Insert your value here:')
+    if x>=0:
+        factorial=1
+        for i in range(1,x+1):
+            factorial=factorial *i
+        print('The factorial od inserted value is', factorial)
+    else:
+        print("error")
+
+fac(int(input(": ")))
+
 print('-'*20)
 #3
 
