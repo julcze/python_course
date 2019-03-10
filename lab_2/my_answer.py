@@ -1,10 +1,9 @@
 from math import *
+from cs50 import get_int
 # 1
 
-print("X:")
-X = int(input())
-print("Y:")
-Y = int(input())
+X = get_int("x: ")
+Y = get_int("y: ")
 
 P_x= 2 * pi *X
 F_x= pi * X **2
@@ -25,3 +24,5 @@ print(Isboth)
 xisdivisiblebyy = X%Y == 0
 xisdivisiblebyycheck = "X is divisible by Y"if xisdivisiblebyy else "X isn't divisible by y"
 print(xisdivisiblebyycheck)
+dzielenie = X/Y
+print(round(dzielenie,2))
